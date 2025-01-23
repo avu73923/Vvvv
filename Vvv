@@ -162,11 +162,3 @@ Tab:Addbutton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoLocal.lua"))()
         end
 })
-
-Tab:Addbutton({
-        Name = "tăng hitbox văn thành ios",
-        Callback = function()
-  repeat wait(5) untio game:Isloaded()
-loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/oniichanpakavanthanhios"))()
-        end
-})
