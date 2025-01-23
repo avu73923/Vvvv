@@ -154,11 +154,3 @@ Tab:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/RubuHubV3.txt"))()
         end
 })
-
-Tab:Addbutton({
-        Name = "volcalo",
-        Callback = function()
-  repeat wait(5) untio game:Isloaded()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoLocal.lua"))()
-        end
-})
