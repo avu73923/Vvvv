@@ -145,12 +145,3 @@ Tab:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/VanThanhLuxucu/refs/heads/main/vanthanhdeptrai.txt"))()
         end
 })
-
-Tab:AddButton({
-	Name = "rubu tv v3",
-	Callback = function()
-  repeat wait(5) until game:IsLoaded()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/RubuHubV3.txt"))()
-        end
-})
